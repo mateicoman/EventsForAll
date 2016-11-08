@@ -1,0 +1,141 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.jumbotron {
+    position: relative;
+    background: #000 url("./ballons-sky.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+.popular-events{
+  font-size: 400%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.footer{
+  padding-top: 40px;
+}
+img:hover {
+
+opacity: 0.4; /* 1 = 100%, 0 = 0% */
+}
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.form-eventUpload {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0;
+}
+.form-eventUpload .form-eventUpload-heading,
+.form-eventUpload .checkbox {
+  margin-bottom: 10px;
+}
+.form-eventUpload .checkbox {
+  font-weight: normal;
+}
+.form-eventUpload .form-control {
+  position: relative;
+  left: auto;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: auto;
+  font-size: 16px;
+}
+.form-eventUpload .form-control:focus {
+  z-index: 2;
+}
+.form-eventUpload input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-eventUpload input[type="time"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-userRegister {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0;
+}
+.form-userRegister .form-userRegister-heading,
+.form-userRegister .checkbox {
+  margin-bottom: 10px;
+}
+.form-userRegister .checkbox {
+  font-weight: normal;
+}
+.form-userRegister .form-control {
+  position: relative;
+  left: auto;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: auto;
+  font-size: 16px;
+}
+.form-userRegister .form-control:focus {
+  z-index: 2;
+}
+.form-userRegister input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-userRegister input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

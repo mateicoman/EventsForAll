@@ -1,0 +1,12 @@
+body{ /* Text colour and backgrounds for webpages */
+  color: purple;
+  background-color: #d8da3d;
+}
+
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+
+

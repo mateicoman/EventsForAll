@@ -1,0 +1,20 @@
+body { background-image:  url("Retro wallpaper for walls 2560x1600.jpg");}
+h1 { color: white; text-align: center; font-family: "Times New Roman";
+     font-size: 40px;}
+p  { color: gold; text-align: justify; font-family: "Times New Roman";
+     font-size: 30px; text-indent: 50px}
+a  { color: gold }
+
+ul {color:gold; text-align: left; font-family: "Times New Roman";
+    font-size: 25px}
+ul#menu {padding: 0;}
+ul#menu li { display: inline;}
+ul#menu li a {background-color: gold;
+              color: black;
+              padding: 10px 20px;
+              text-decoration: none;
+              border-radius: 4px 4px 0 0;
+             }
+
+
+            
